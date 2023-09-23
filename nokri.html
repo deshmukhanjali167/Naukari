@@ -1,0 +1,2711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nokari</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="../Naukari/nokari.css">
+    <!-- font icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- bootstrp font link -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" -->
+    <!-- integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--  -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<body>
+
+    <div class="container-fluid">
+        <section class="first-sec  ">
+            <header class="header">
+                <nav class="navbar navbar-expand-lg shadow-lg bg-white position-static w-100">
+                    <div class="container-fluid d-flex ">
+                        <div class="collapse navbar-collapse p-2 py-2" id="navbarNav">
+                            <img class="imgnaukari ms-5 me-4" src="../Naukari/nokriimg/naukri_Logo.png"
+                                alt="information about img">
+                            <ul class="navbar-nav headingsize ">
+                                <li class="nav-item">
+                                    <p class="nav-link active  me-2 pt-3" data-bs-toggle="offcanvas"
+                                        data-bs-target="#demo">
+                                        Job
+                                    </p>
+                                </li>
+                                <li class="nav-item">
+                                    <p class="nav-link active  me-2  pt-3" data-bs-toggle="offcanvas"
+                                        data-bs-target="#demos">
+                                        Companies
+                                    </p>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active  me-2  pt-3" aria-current="page" href="#">Service</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav2 p-2 me-5 flex-shrink-1">
+                            <div class="navbar-collapse">
+                                <div class="nav-item ">
+                                    <a class="nav-link active  me-2 " aria-current="page" href="#"> <button
+                                            class="btn btn-sm  border-primary text-primary rounded-pill hoverbtn px-4 py-1"
+                                            type="button" data-bs-toggle="offcanvas"
+                                            data-bs-target="#login">Login</button>
+                                    </a>
+                                </div>
+                                <div class="nav-item">
+                                    <a class="nav-link active fs-6 me-2" aria-current="page" href="#">
+                                        <button class="btn  btn-sm bg-danger  text-light rounded-pill px-4 py-1">Register</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="middlepart">
+                <div class="middle-part shadow-none  bg-light-subtle">
+                    <div class="title mt-5">
+                        <h1 class="text-center pt-5 fw-bold  "> Find your dream job now</h1>
+                        <h6 class="text-center pt-2 pb-5"> 5 lakh+ jobs for you to explore</h6>
+                    </div>
+                    <div class="middlepart  d-flex align-items-center justify-content-center">
+                        <div
+                            class="search shadow-sm bg-white rounded-5  px-2  pt-23  d-flex flex-row gap-3 p-3 shadow-lg">
+                            <div class="icon ps-4 pt-2">
+                                <i class="bi bi-search pt-2"></i>
+                            </div>
+                            <div class="skills">
+                                <input type="text" class="border border-0 bg-white enter skill pt-2 "
+                                    placeholder="Enter skills / designation / companies">
+                            </div>
+                            <div class="line pt-2">
+                                |
+                            </div>
+
+                            <div class=" dropdownMainContainer focus pt-2">
+
+
+
+
+                                <select name="" placeholder=" Select experience" id=""
+                                    class="btn dropdown-toggle border border-0 bg-white mt-0 pt-0 enter">
+                                    <option>Select experience</option>
+                                    <option>1 year</option>
+                                    <option>2 year</option>
+                                    <option>3 year</option>
+                                    <option>4 year</option>
+                                    <option>5 year</option>
+                                    <option>6 year</option>
+                                </select>
+
+                            </div>
+                            <div class="line pt-2">
+                                |
+                            </div>
+                            <div class="location pt-2 ">
+                                <input type="text" class="border border-0 bg-white enter" placeholder="Enter Location">
+                            </div>
+                            <div class="serchntn pt-2">
+                                <button class="bg-primary border border-0 rounded-pill px-5 py-1"> Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab pt-5">
+                <div class="main-warp d-flex align-items-center justify-content-center ">
+                    <div class="row ">
+                        <div class="subtab d-flex flex-row justify-content-center align-items-center pt-5 ">
+                            <div class="remote ms-5 ">
+                                <div class="remote border border-secondry rounded-4 py-3 text-center">
+                                    <div class="div">
+                                        <img class="me-2  ms-3" src="../Naukari/nokriimg/imghome.svg">
+                                        <span class="tab-sub-heading ">Remote</span>
+                                        <img class="me-2" src="../Naukari/nokriimg/arrow.svg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mnc ms-3">
+                                <div class="mnc border border-secondry rounded-4  py-3 text-center">
+                                    <div class="div">
+                                        <img class="me-2  ms-3" src="../Naukari/nokriimg/imghome.svg">
+                                        <span class="tab-sub-heading ">MNC</span>
+                                        <img class="me-2" src="../Naukari/nokriimg/arrow.svg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="analytice ms-3">
+                                <div class="aemote border border-secondry rounded-4  py-3 text-center">
+                                    <div class="div">
+                                        <img class="me-2 ms-3" src="../Naukari/nokriimg/analyticsonetheme.svg">
+                                        <span class="tab-sub-heading ">Analytice</span>
+                                        <img class="me-2" src="../Naukari/nokriimg/arrow.svg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="engineering ms-3">
+                                <div class="engineering border border-secondry rounded-4  py-3 text-center">
+                                    <div class="div">
+                                        <img class="me-2  ms-3" src="../Naukari/nokriimg/engineeringonetheme.svg">
+                                        <span class="tab-sub-heading ">Engineering</span>
+                                        <img class="me-2" src="../Naukari/nokriimg/arrow.svg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="software ms-3">
+                                <div class="software border border-secondry rounded-4  py-3 text-center">
+                                    <div class="div">
+                                        <img class="me-2  ms-3" src="../Naukari/nokriimg/softwareonetheme.svg">
+                                        <span class="tab-sub-heading ">Software &amp; ..</span>
+                                        <img class="me-2" src="../Naukari/nokriimg/arrow.svg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fresher ms-3 me-5">
+                                <div class="fresher border border-secondry rounded-4  py-3 text-center">
+                                    <div class="div">
+                                        <img class="me-2  ms-" src="../Naukari/nokriimg/freshersonetheme.svg">
+                                        <span class="tab-sub-heading ">Fresher</span>
+                                        <img class="me-2" src="../Naukari/nokriimg/arrow.svg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-main-warp d-flex align-items-center justify-content-center ">
+                    <div class="row ">
+                        <div class="subtab d-flex flex-row justify-content-center align-items-center pt-2 ">
+                            <div class="startup ">
+                                <div class="startup-sub border border-secondry rounded-4 py-3 text-center">
+                                    <div class="div">
+                                        <img class="me-2  ms-3 imgstartup"
+                                            src="../Naukari/nokriimg/fortune-500onetheme.svg">
+                                        <span class="tab-sub-heading ">Startup</span>
+                                        <img class="me-2" src="../Naukari/nokriimg/arrow.svg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="temp ms-3">
+                                <div class="temp border border-secondry rounded-4  py-3 text-center">
+                                    <div class="div">
+                                        <img class="me-2  ms-3" src="../Naukari/nokriimg/temporary-wfhonetheme.svg">
+                                        <span class="tab-sub-heading ">Temp WFH</span>
+                                        <img class="me-2" src="../Naukari/nokriimg/arrow.svg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fortune ms-3">
+                                <div class="fortune border border-secondry rounded-4  py-3 text-center">
+                                    <div class="div">
+                                        <img class="me-2 ms-3" src="../Naukari/nokriimg/fortune-500onetheme.svg">
+                                        <span class="tab-sub-heading ">Fortune 500</span>
+                                        <img class="me-2" src="../Naukari/nokriimg/arrow.svg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project ms-3">
+                                <div class="project border border-secondry rounded-4  py-3 text-center">
+                                    <div class="div">
+                                        <img class="me-2  ms-3"
+                                            src="../Naukari/nokriimg/project-managementonetheme.svg">
+                                        <span class="tab-sub-heading ">Project Mgmt</span>
+                                        <img class="me-2" src="../Naukari/nokriimg/arrow.svg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Supply ms-3 ">
+                                <div class="Supply border border-secondry rounded-4  py-3 text-center">
+                                    <div class="div">
+                                        <img class="me-2  ms-3" src="../Naukari/nokriimg/supplychainonetheme.svg">
+                                        <span class="tab-sub-heading ">Supply Chain.</span>
+                                        <img class="me-2" src="../Naukari/nokriimg/arrow.svg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top mt-5">
+                <div class="headline ">
+                    <h4 class=" top-companies text-center mb-3 mt-5  ">Top companies hiring now
+                    </h4>
+                    <div id="carouselExampleControls" class="carousel slide sliders bg-white" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row ">
+                                    <div class="slider d-flex flex-row ">
+                                        <div class="card  mx-2 my-2 shadow hov">
+                                            <div class="justify-content-center align-items-center">
+                                                <div class=" card-sub card-body m-0 shadow">
+                                                    <div class="heading ">
+                                                        <div class="title d-flex">
+                                                            <p class="mb-0 me-1">Healthcare</p>
+                                                            <img src="../Naukari/nokriimg/mainarrow.svg"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="subtitle mb-0 ">
+                                                            <p class="minititle">124 are actively hiring</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-img d-flex flex-row ">
+                                                        <div class="companyimg  ms-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/fres.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/jaypee.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/metroplus.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/sygene.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card  mx-2 my-2 shadow">
+                                            <div class="justify-content-center align-items-center">
+                                                <div class=" card-sub card-body m-0 shadow">
+                                                    <div class="heading ">
+                                                        <div class="title d-flex">
+                                                            <p class="mb-0 me-1">Salary and Benefits</p>
+                                                            <img src="../Naukari/nokriimg/mainarrow.svg"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="subtitle mb-0 ">
+                                                            <p class="minititle">88 are actively hiring</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-img d-flex flex-row ">
+                                                        <div class="companyimg me-1 ms-3">
+                                                            <img class="icon" src="../Naukari/nokriimg/up.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg me-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/american.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg me-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/round.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg me-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/circle.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card  mx-2 my-2 shadow">
+                                            <div class="justify-content-center align-items-center">
+                                                <div class=" card-sub card-body m-0">
+                                                    <div class="heading ">
+                                                        <div class="title d-flex">
+                                                            <p class="mb-0 me-1">Salary and Benefits</p>
+                                                            <img src="../Naukari/nokriimg/mainarrow.svg"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="subtitle mb-0 ">
+                                                            <p class="minititle">88 are actively hiring</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-img d-flex flex-row ">
+                                                        <div class="companyimg p-1 ms-3">
+                                                            <img class="icon" src="../Naukari/nokriimg/bb.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/phonepay.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/triangle.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/zeta.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card  mx-2 my-2 shadow">
+                                            <div class="justify-content-center align-items-center">
+                                                <div class=" card-sub card-body m-0">
+                                                    <div class="heading ">
+                                                        <div class="title d-flex">
+                                                            <p class="mb-0 me-1">Internet</p>
+                                                            <img src="../Naukari/nokriimg/mainarrow.svg"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="subtitle mb-0 ">
+                                                            <p class="minititle">146 are actively hiring</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-img d-flex flex-row ">
+                                                        <div class="companyimg p-1 ms-3">
+                                                            <img class="icon" src="../Naukari/nokriimg/roposo.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/ys.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/rebel.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/mylo.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row ">
+                                    <div class="slider d-flex flex-row">
+                                        <div class="card mx-2 my-2 shadow">
+                                            <div class="justify-content-center align-items-center">
+                                                <div class=" card-sub card-body m-0">
+                                                    <div class="heading ">
+                                                        <div class="title d-flex ">
+                                                            <p class="mb-0 me-1">MNC</p>
+                                                            <img src="../Naukari/nokriimg/mainarrow.svg"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="subtitle mb-0 ">
+                                                            <p class="minititle">1.4K+ are actively hiring</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-img d-flex flex-row ">
+                                                        <div class="companyimg ms-3">
+                                                            <img class="icon" src="../Naukari/nokriimg/companylobo.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1 ">
+                                                            <div class="companyimg ">
+                                                                <img class="icon" src="../Naukari/nokriimg/luxlobo.gif"
+                                                                    alt="information about img">
+                                                            </div>
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/group.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/system.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card  mx-2 my-2 shadow">
+                                            <div class="justify-content-center align-items-center">
+                                                <div class=" card-sub card-body m-0">
+                                                    <div class="heading ">
+                                                        <div class="title  d-flex">
+                                                            <p class="mb-0 me-3">Edtech</p>
+                                                            <img src="../Naukari/nokriimg/mainarrow.svg"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="subtitle mb-0 ">
+                                                            <p class="minititle">154 are actively hiring</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-img d-flex flex-row ">
+                                                        <div class="companyimg ms-0">
+                                                            <img class="icon" src="../Naukari/nokriimg/unacademy.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/rebel.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/profoun.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/neru.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card  mx-2 my-2 shadow">
+                                            <div class="justify-content-center align-items-center">
+                                                <div class=" card-sub card-body m-0">
+                                                    <div class="heading ">
+                                                        <div class="title d-flex">
+                                                            <p class="mb-0 me-1">Healthcare</p>
+                                                            <img src="../Naukari/nokriimg/mainarrow.svg"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="subtitle mb-0 ">
+                                                            <p class="minititle">124 are actively hiring</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-img d-flex flex-row ">
+                                                        <div class="companyimg  ms-3">
+                                                            <img class="icon" src="../Naukari/nokriimg/fres.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/jaypee.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/metroplus.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/sygene.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card  mx-2 my-2 shadow">
+                                            <div class="justify-content-center align-items-center">
+                                                <div class=" card-sub card-body m-0">
+                                                    <div class="heading ">
+                                                        <div class="title d-flex">
+                                                            <p class="mb-0 me-1">Salary and Benefits</p>
+                                                            <img src="../Naukari/nokriimg/mainarrow.svg"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="subtitle mb-0 ">
+                                                            <p class="minititle">88 are actively hiring</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-img d-flex flex-row ">
+                                                        <div class="companyimg p-1 ms-3">
+                                                            <img class="icon" src="../Naukari/nokriimg/up.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/american.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/round.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/circle.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row ">
+                                    <div class="slider d-flex flex-row">
+                                        <div class="card  mx-2 my-2 shadow">
+                                            <div class="justify-content-center align-items-center">
+                                                <div class=" card-sub card-body m-0">
+                                                    <div class="heading ">
+                                                        <div class="title d-flex">
+                                                            <p class="mb-0 me-1">Healthcare</p>
+                                                            <img src="../Naukari/nokriimg/mainarrow.svg"
+                                                                alt="information about img">
+
+                                                        </div>
+                                                        <div class="subtitle mb-0 ">
+                                                            <p class="minititle">124 are actively hiring</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-img d-flex flex-row ">
+                                                        <div class="companyimg  ms-3">
+                                                            <img class="icon" src="../Naukari/nokriimg/fres.gif"
+                                                                alt="information about img">
+                                                        </div>i
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/jaypee.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/metroplus.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/sygene.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card  mx-2 my-2 shadow">
+                                            <div class="justify-content-center align-items-center">
+                                                <div class=" card-sub card-body m-0">
+                                                    <div class="heading ">
+                                                        <div class="title d-flex">
+                                                            <p class="mb-0 me-1">Salary and Benefits</p>
+                                                            <img src="../Naukari/nokriimg/mainarrow.svg"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="subtitle mb-0 ">
+                                                            <p class="minititle">88 are actively hiring</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-img d-flex flex-row ">
+                                                        <div class="companyimg p-1 ms-3">
+                                                            <img class="icon" src="../Naukari/nokriimg/up.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/american.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/round.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/circle.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card  mx-2 my-2 shadow">
+                                            <div class="justify-content-center align-items-center">
+                                                <div class=" card-sub card-body m-0">
+                                                    <div class="heading ">
+                                                        <div class="title d-flex">
+                                                            <p class="mb-0 me-1">Salary and Benefits</p>
+                                                            <img src="../Naukari/nokriimg/mainarrow.svg"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="subtitle mb-0 ">
+                                                            <p class="minititle">88 are actively hiring</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-img d-flex flex-row ">
+
+                                                        <div class="companyimg p-1 ms-3">
+                                                            <img class="icon" src="../Naukari/nokriimg/bb.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/phonepay.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/triangle.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/zeta.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card  mx-2 my-2 shadow">
+                                            <div class="justify-content-center align-items-center">
+                                                <div class=" card-sub card-body m-0">
+                                                    <div class="heading ">
+                                                        <div class="title d-flex">
+                                                            <p class="mb-0 me-1">Internet</p>
+                                                            <img src="../Naukari/nokriimg/mainarrow.svg"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="subtitle mb-0 ">
+                                                            <p class="minititle">146 are actively hiring</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main-img d-flex flex-row ">
+                                                        <div class="companyimg me-1 ms-3">
+                                                            <img class="icon" src="../Naukari/nokriimg/roposo.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/ys.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/rebel.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                        <div class="companyimg p-1">
+                                                            <img class="icon" src="../Naukari/nokriimg/mylo.gif"
+                                                                alt="information about img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon bg-dark rounded-5" aria-hidden="false"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="second-section my-5 pt-5 mb-5">
+        <h3 class="fw-bold text-center pt-5 pb-3">Featured companies actively hiring</h3>
+        <div id="carouselExampleFade" class="carousel slide second-slider carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item d-flex flex-row active">
+                    <div class="row">
+                        <div class="slider d-flex flex-row">
+                        </div>
+                    </div>
+                    <div class="card main-card rounded-3 Regular shadow mx-3">
+                        <div class="card-body ">
+                            <img class=" text-center p-3" src="../Naukari/nokriimg/jio.gif" alt="">
+                            <div class=" card Addition-card text-center justify-content-center align-items-center p-3"
+                                style="background-color: #0037ff45;">
+                                <span class="fw-bold">Jio</span>
+                                <div class="additionalDetails">
+                                    <span class="star">
+                                        <img class="text-center "
+                                            src="//static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.0f830ab5.svg"
+                                            alt="rating"></span>
+                                    <span class="main-2 rating">4.0</span>
+                                    <span class="main-2 reviews">16.2K+ reviews</span>
+                                </div>
+                            </div>
+                            <h6 class="text-center p-2 last-title">India's largest 4G network <br>provider.</h6>
+                            <div class="btn-warper text-center">
+                                <button type="button" class="btn btn-info  text-primary rounded-pill fw-bold ">View
+                                    jobs</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card main-card rounded-3 Regular shadow mx-3">
+                        <div class="card-body ">
+                            <img class=" text-center p-3" src="../Naukari/nokriimg/luximg.gif" alt="">
+                            <div class=" card Addition-card   text-center justify-content-center align-items-center p-3"
+                                style="background-color: #ad41960a;">
+                                <span class="fw-bold">Luxoft</span>
+                                <div class="additionalDetails">
+                                    <span class="star">
+                                        <img class="text-center "
+                                            src="//static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.0f830ab5.svg"
+                                            alt="rating"></span>
+                                    <span class="main-2 rating">4.2</span>
+                                    <span class="main-2 reviews">334 reviews</span>
+                                </div>
+                            </div>
+                            <h6 class="text-center p-2 last-title">DXC Technology Company.</h6>
+                            <div class="btn-warper text-center">
+                                <button type="button" class="btn btn-info  text-primary rounded-pill mt-3 fw-bold ">View
+                                    jobs</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card main-card rounded-3 Regular shadow mx-3">
+                        <div class="card-body ">
+                            <img class=" text-center p-3" src="../Naukari/nokriimg/cog.gif" alt="">
+                            <div class=" card Addition-card text-center justify-content-center align-items-center p-3"
+                                style="background-color: #1000ff47;">
+                                <span class="fw-bold">Cognizant</span>
+                                <div class="additionalDetails">
+                                    <span class="star">
+                                        <img class="text-center "
+                                            src="//static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.0f830ab5.svg"
+                                            alt="rating"></span>
+                                    <span class="main-2 rating">3.9</span>
+                                    <span class="main-2 reviews">33.3K+ reviews</span>
+                                </div>
+                            </div>
+                            <h6 class="text-center p-2 last-title">Leading ITeS company with <br>
+                                global presence.</h6>
+                            <div class="btn-warper text-center">
+                                <button type="button" class="btn btn-info  text-primary rounded-pill fw-bold ">View
+                                    jobs</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card main-card rounded-3 Regular shadow mx-3">
+                        <div class="card-body ">
+                            <img class=" text-center p-3" src="../Naukari/nokriimg/icici.gif" alt="">
+                            <div class=" card Addition-card   text-center justify-content-center align-items-center p-3"
+                                style="background-color: #ad41960a; ">
+                                <span class="fw-bold">ICICI Bank</span>
+                                <div class="additionalDetails">
+                                    <span class="star">
+                                        <img class="text-center "
+                                            src="//static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.0f830ab5.svg"
+                                            alt="rating"></span>
+                                    <span class="main-2 rating">4.1</span>
+                                    <span class="main-2 reviews">27.1K reviews</span>
+                                </div>
+                            </div>
+                            <h6 class="text-center p-2 last-title">Leading private sector bank in
+                                India.</h6>
+                            <div class="btn-warper text-center">
+                                <button type="button" class="btn btn-info  text-primary rounded-pill fw-bold ">View
+                                    jobs</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="slider d-flex flex-row">
+                            <div class="card main-card rounded-3 Regular shadow mx-3">
+                                <div class="card-body me-3">
+                                    <img class=" text-center p-3" src="../Naukari/nokriimg/luximg.gif" alt="">
+                                    <div class=" card Addition-card   text-center justify-content-center align-items-center p-3"
+                                        style="background-color: #ad41960a;">
+                                        <span class="fw-bold">Luxoft</span>
+                                        <div class="additionalDetails">
+                                            <span class="star">
+                                                <img class="text-center "
+                                                    src="//static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.0f830ab5.svg"
+                                                    alt="rating"></span>
+                                            <span class="main-2 rating">4.2</span>
+                                            <span class="main-2 reviews">334 reviews</span>
+                                        </div>
+                                    </div>
+                                    <h6 class="text-center p-2 last-title">DXC Technology Company.</h6>
+                                    <div class="btn-warper text-center">
+                                        <button type="button"
+                                            class="btn btn-info  text-primary rounded-pill fw-bold ">View jobs</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card main-card rounded-3 Regular shadow mx-3">
+                                <div class="card-body ">
+                                    <img class=" text-center p-3" src="../Naukari/nokriimg/jio.gif" alt="">
+                                    <div class=" card Addition-card text-center justify-content-center align-items-center p-3"
+                                        style="background-color: #0037ff45;">
+                                        <span class="fw-bold">Jio</span>
+                                        <div class="additionalDetails">
+                                            <span class="star">
+                                                <img class="text-center "
+                                                    src="//static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.0f830ab5.svg"
+                                                    alt="rating"></span>
+                                            <span class="main-2 rating">4.0</span>
+                                            <span class="main-2 reviews">16.2K+ reviews</span>
+                                        </div>
+                                    </div>
+                                    <h6 class="text-center p-2 last-title">India's largest 4G network <br>provider.</h6>
+                                    <div class="btn-warper text-center">
+                                        <button type="button"
+                                            class="btn btn-info  text-primary rounded-pill fw-bold ">View jobs</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card main-card rounded-3 Regular shadow mx-3">
+                                <div class="card-body ">
+                                    <img class=" text-center p-3" src="../Naukari/nokriimg/icici.gif" alt="">
+                                    <div class=" card Addition-card   text-center justify-content-center align-items-center p-3"
+                                        style="background-color: #ad41960a;">
+                                        <span class="fw-bold">ICICI Bank</span>
+                                        <div class="additionalDetails">
+                                            <span class="star">
+                                                <img class="text-center "
+                                                    src="//static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.0f830ab5.svg"
+                                                    alt="rating"></span>
+                                            <span class="main-2 rating">4.1</span>
+                                            <span class="main-2 reviews">27.1K reviews</span>
+                                        </div>
+                                    </div>
+                                    <h6 class="text-center p-2 last-title">Leading private sector bank in
+                                        India.</h6>
+                                    <div class="btn-warper text-center">
+                                        <button type="button"
+                                            class="btn btn-info text-primary rounded-pill fw-bold ">View jobs</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card main-card rounded-3 Regular shadow mx-3">
+                                <div class="card-body ">
+                                    <img class=" text-center p-3" src="../Naukari/nokriimg/cog.gif" alt="">
+                                    <div class=" card Addition-card text-center justify-content-center align-items-center p-3"
+                                        style="background-color: #1000ff47; ">
+                                        <span class="fw-bold">Cognizant</span>
+                                        <div class="additionalDetails">
+                                            <span class="star">
+                                                <img class="text-center "
+                                                    src="//static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.0f830ab5.svg"
+                                                    alt="rating"></span>
+                                            <span class="main-2 rating">3.9</span>
+                                            <span class="main-2 reviews">33.3K+ reviews</span>
+                                        </div>
+                                    </div>
+                                    <h6 class="text-center p-2 last-title">Leading ITeS company with <br>
+                                        global presence.</h6>
+                                    <div class="btn-warper text-center">
+                                        <button type="button"
+                                            class="btn btn-info  text-primary rounded-pill fw-bold ">View jobs</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <div class="row">
+        <div class="col-12 text-center">
+            <button class="btn  border-primary text-primary rounded-pill text-center mt-5 mb-5"> View all
+                companies</button>
+        </div>
+    </div>
+    <section class="mt-2">
+        <div class="container-fluid discover-jobs d-flex justify-content-between " style="width:80%; height:350px;">
+            <div class="left">
+                <div class="card p-5">
+                    <div class="left-section ">
+                        <img src="../Naukari/nokriimg/man.png" class="role-img " alt="naukri role-collection"
+                            height="100px" width="389">
+                        <h4>Discover jobs across popular roles</h4>
+                        <p>Select a role and we'll show you relevant jobs for it!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card subminicard  ">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                            class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-flex gap-4 my-4 ">
+                                <div class=" miniproduct border rounded-3 p-2 ms-3">
+                                    <p>Product Manager </p>
+                                    <p>2.1K+ Jobs</p>
+                                </div>
+                                <div class=" miniproduct border rounded-3 p-2 me-3">
+                                    <p>Product Manager </p>
+                                    <p>2.1K+ Jobs</p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-4 my-4">
+                                <div class=" miniproduct border rounded-3 p-2 ms-3">
+                                    <p>Product Manager </p>
+                                    <p>2.1K+ Jobs</p>
+                                </div>
+                                <div class="miniproduct border rounded-3 p-2 me-3">
+                                    <p>Product Manager </p>
+                                    <p>2.1K+ Jobs</p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-4 my-4">
+                                <div class="miniproduct  border rounded-3 p-2 ms-3 ">
+                                    <p>Product Manager </p>
+                                    <p>2.1K+ Jobs</p>
+                                </div>
+                                <div class=" miniproduct border rounded-3 p-2 me-3">
+                                    <p>Product Manager </p>
+                                    <p>2.1K+ Jobs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex gap-4 my-4 ">
+                                <div class=" miniproduct border rounded-3 p-2 ms-3">
+                                    <p>Product Manager </p>
+                                    <p>2.1K+ Jobs</p>
+                                </div>
+                                <div class=" miniproduct border rounded-3 p-2 me-3">
+                                    <p>Product Manager </p>
+                                    <p>2.1K+ Jobs</p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-4 my-4">
+                                <div class=" miniproduct border rounded-3 p-2 ms-3">
+                                    <p>Product Manager </p>
+                                    <p>2.1K+ Jobs</p>
+                                </div>
+                                <div class="miniproduct border rounded-3 p-2 me-3">
+                                    <p>Product Manager </p>
+                                    <p>2.1K+ Jobs</p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-4 my-4">
+                                <div class="miniproduct  border rounded-3 p-2 ms-3 ">
+                                    <p>Product Manager </p>
+                                    <p>2.1K+ Jobs</p>
+                                </div>
+                                <div class=" miniproduct border rounded-3 p-2 me-3">
+                                    <p>Product Manager </p>
+                                    <p>2.1K+ Jobs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex gap-4 my-4 ">
+                                <div class=" miniproduct border rounded-3 p-2 ms-3">
+                                    <p>Product Manager </p>
+                                    <p>2.1K+ Jobs</p>
+                                </div>
+                                <div class=" miniproduct border rounded-3 p-2 me-3">
+                                    <p>Product Manager </p>
+                                    <p>2.1K+ Jobs</p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-4 my-4">
+                                <div class=" miniproduct border rounded-3 p-2 ms-3">
+                                    <p>Product Manager </p>
+                                    <p>2.1K+ Jobs</p>
+                                </div>
+                                <div class="miniproduct border rounded-3 p-2 me-3">
+                                    <p>Product Manager </p>
+                                    <p>2.1K+ Jobs</p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-4 my-4">
+                                <div class="miniproduct  border rounded-3 p-2 ms-3 ">
+                                    <p>Product Manager </p>
+                                    <p>2.1K+ Jobs</p>
+                                </div>
+                                <div class=" miniproduct border rounded-3 p-2 me-3">
+                                    <p>Product Manager </p>
+                                    <p>2.1K+ Jobs</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark shadow-lg rounded-pill"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row mt-5 mb-5">
+            <div class="col-12 text-center">
+                <span class=" text-center  fs-4 fw-bold"> Sponsored companies</button>
+            </div>
+        </div>
+        <div class="all text-center justify-content-center">
+            <button class="  btn border-dark  rounded-pill text-center all my-2">All </button>
+            <button class=" btn  border-dark  rounded-pill text-center all my-2 ">IT Services </button>
+            <button class=" btn border-dark  rounded-pill text-center all my-2 "> Manufacturing & Production</button>
+            <button class="  btn border-dark  rounded-pill text-center all my-2  "> Healthcare & Life Sciences</button>
+            <button class=" btn border-dark  rounded-pill text-center all my-2 ">Technology </button>
+            <button class=" btn border-dark  rounded-pill text-center all my-2  "> BFSI</button>
+            <button class=" btn border-dark  rounded-pill text-center all my-2   ">Infrastructure, Transport & Real
+                Estate </button>
+            <button class=" btn border-dark  rounded-pill text-center all my-2 "> BPM</button>
+            <button class=" btn border-dark  rounded-pill text-center all my-2  ">Consumer, Retail & Hospitality
+            </button>
+            <button class=" btn border-dark  rounded-pill text-center all my-2 "> Media, Entertainment &
+                Telecom</button>
+
+
+        </div>
+    </section>
+    <div class="container mt-4">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card p-2 shadow" style="height:214px ;width:265px">
+
+                                <div class="img_wrap d-flex justify-content-center \">
+
+                                    <img class="image_icon "
+                                        src="https://img.naukimg.com/logo_images/groups/v1/763714.gif">
+
+
+
+                                </div>
+                                <h6 class="text-center">Adani Group</h6>
+                                <div class="additional ">
+                                    <span class="d-flex justify-content-center">
+                                        <img src="../Naukari/nokriimg/star.svg">
+                                        <span>
+                                            4.0
+                                        </span>
+                                        <span> 4.0 reviews </span>
+
+                                    </span>
+                                    <div class="tag_wraper mt-2 pt-2 ">
+                                        <div class="tag_first d-flex justify-content-center align-items-center">
+                                            <span
+                                                class="tag_card  border border-dark rounded-pill px-2 mx-1  ">B2B</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">B2C</span>
+                                            <span
+                                                class="tag_card   border border-dark  rounded-pill px-2 mx-1">Power</span>
+                                            <span
+                                                class="tag_card   border border-dark   rounded-pill px-2 mx-1">Public</span>
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center mt-2 pt-2">
+                                            <span
+                                                class="tag_card    border border-dark rounded-pill  px-2 mx-1">Conglomerate</span>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center">
+            <button class="btn  border-primary text-primary rounded-pill text-center mt-5 mb-5 hoverbtn"> View all
+                companies</button>
+        </div>
+    </div>
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-4 ps-5">
+                <h4>Participate in contests & hackathons</h4>
+                <img class="logo" src="https://static.naukimg.com/s/0/0/i/Events/eventsSwiperLeft-ot.png" alt="">
+            </div>
+
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="card rounded-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img class="logo_img rounded-top img-flui" style="width:290px"
+                                        src="https://static.naukimg.com/s/0/0/i/Events/bannerFallback/eventsBannerFallback_3.png">
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <img class="icon mt-3 ms-2"
+                                        src="https://img.naukimg.com/logo_images/groups/v1/4670525.gif">
+                                </div>
+                                <div class="col-10">
+                                    <div class="card_additinal_info ps-2 mt-2">
+                                        <span>Codestudio Weekend Contes..</span><br>
+                                        <span class="text-muted"> Coding Ninjas</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 pt-3 ms-4">
+                                    <span
+                                        class="tag_card border border-none   rounded-pill px-2 mx-1 py-1 ms-3">Data
+                                        Structures &
+                                        Algorithms</span>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 pt-4 ms-3">
+
+
+                                    <i class="bi bi-calendar "></i>
+                                    <span class="ps-2" type="date"> 10 jun 10:30pm</span>
+                                    <img class="ps-2" src="../Naukari/nokriimg/user-ot.svg">
+                                    <span class="ps-2"> 40 </span>
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="ms-2 row pt-3">
+
+
+
+                                <div class="col-12 py-1 d-flex">
+                                    <div
+                                        class=" coloure_b border border-primaryborder-1 rounded-pill px-3 py-1  justify-content-center " style="width: 244px;">
+                                        <img class="ms-3" src="../Naukari/nokriimg/award.svg"
+                                            style="width:17px;height: 17px;">
+                                        <span class="ms-3 text-primary mb-4">Exciting rewards</span>
+
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                         
+                        </div>
+
+                    </div>
+                 <div class="col-5">
+                    <div class="card rounded-4">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="logo_img rounded-top img-flui" style="width:290px"
+                                    src="https://static.naukimg.com/s/0/0/i/Events/bannerFallback/eventsBannerFallback_3.png">
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <img class="icon mt-3 ms-2"
+                                    src="https://img.naukimg.com/logo_images/groups/v1/4670525.gif">
+                            </div>
+                            <div class="col-10">
+                                <div class="card_additinal_info ps-2 mt-2">
+                                    <span>Codestudio Weekend Contes..</span><br>
+                                    <span class="text-muted"> Coding Ninjas</span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 pt-3 ms-4">
+                                <span
+                                    class="tag_card border border-none   rounded-pill px-2 mx-1 py-1 ms-3">Data
+                                    Structures &
+                                    Algorithms</span>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 pt-4 ms-3">
+
+
+                                <i class="bi bi-calendar "></i>
+                                <span class="ps-2" type="date"> 10 jun 10:30pm</span>
+                                <img class="ps-2" src="../Naukari/nokriimg/user-ot.svg">
+                                <span class="ps-2"> 40 </span>
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="ms-2 row pt-3">
+
+
+
+                            <div class="col-12 py-1 d-flex">
+                                <div
+                                    class=" coloure_b border border-primaryborder-1 rounded-pill px-3 py-1  justify-content-center "style="width: 244px;">
+                                    <img class="ms-3" src="../Naukari/nokriimg/award.svg"
+                                        style="width:17px;height: 17px;">
+                                    <span class="ms-3 text-primary mb-4">Exciting rewards</span>
+
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                     
+                    </div>
+
+                 </div>
+
+
+                </div>
+
+
+
+
+               
+                          
+                        </div>
+                      </div>
+                      
+         
+
+
+
+
+
+
+        </div>
+    </div>
+    <div class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-12">
+                            <img class="imgnaukari " src="../Naukari/nokriimg/naukri_Logo.png" alt="information about img">
+                        </div>
+                        <div class="col-12 pt-5">
+                            <p> Connect With Us</p>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="https://th.bing.com/th/id/OIP.-S_6Xas4yGvUnQuoLVO7XAHaHZ?pid=ImgDet&amp;rs=1" style="width: 20px; height: 20px;">
+    
+                                </div>
+                                <div class="col-3">
+                                    <img src="https://th.bing.com/th/id/OIP.3gk6PKoEnY2kTL1KCYv-hQHaEK?pid=ImgDet&amp;rs=1" style="width: 20px; height: 20px;">
+    
+                                </div>
+                                <div class="col-3">
+                                    <img src="https://th.bing.com/th/id/OIP.zaiIl16zqTKDuhYIxeop0wHaHa?pid=ImgDet&amp;rs=1" style="width: 20px; height: 20px;">
+    
+    
+                                </div>
+                                <div class="col-3">
+                                    <img src="https://th.bing.com/th/id/OIP.w_zDkEJ9aLiWR-g0rff8hwHaHa?pid=ImgDet&amp;rs=1" style="width: 20px; height: 20px;">
+    
+    
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col-2 ps-3 font-family">
+                    <p> About us</p>
+                    <p>Careers</p>
+                    <p>Employer home</p>
+                    <p> sitemap</p>
+    
+                </div>
+                <div class="col-2 font-family">
+                    <p>Help center</p>
+                    <p>Summons/Notices</p>
+                    <p>Grievance</p>
+                    <p> Report issue</p>
+    
+                </div>
+                <div class="col-2 font-family">
+                    <p>Privacy policy</p>
+                    <p>Terms & conditions</p>
+                    <p>Fraud alert</p>
+                    <p> Trust & safety</p>
+    
+                </div>
+                <div class="col-4">
+                    <div class="card rounded-3 p-3">
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="fw-bold">Apply on the go</p>
+                                <span class=" font-family">Get real-time job updates on our App</span>
+                            </div>
+                            <div class="col-12 pt-3 pb-3">
+                                <div class="row">
+                                    <div class="col-6 ps-4">
+                                        <img src="https://static.naukimg.com/s/0/0/i/new-homepage/android-app_v1.png">
+    
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="https://static.naukimg.com/s/0/0/i/new-homepage/ios-app_v1.png">
+                                    </div>
+                                </div>
+             
+                            </div>
+                        </div>
+                      
+
+                    </div>
+                    
+    
+                </div>
+
+            </div>
+           
+
+        </div>
+    </div>
+
+    <!-- job search -->
+    <li>
+        <div class="offcanvas offcanvas-top w-75 jobserch ms-5 rounded mt-5" style="height:210px" id="demo">
+
+            <div class="offcanvas-body jobserch">
+                <div class="canvas_card ">
+
+                    <div class="row ps-5">
+                        <div class="col-3 ">
+                            <span class="fw-bold">Popular Categories</span><br>
+                            <span> IT jobs<span><br>
+                                    <span>Sale jobs<span><br>
+                                            <span>Markeiting<span><br>
+                                                    <span>Data Science jobs<span><br>
+                                                            <span>HR jobs<span><br>
+                                                                    <span>Engineering jobs<span><br>
+
+                        </div>
+
+                        <div class="col-3">
+                            <span class="fw-bold">Jobs in demand</span><br>
+                            <span> Fresher jobs<span><br>
+                                    <span>MNC jobs<span><br>
+                                            <span>Remotejobs<span><br>
+                                                    <span>Work From home jobs<span><br>
+                                                            <span>Walk in jobs<span><br>
+                                                                    <span>Part-time jobs<span><br>
+                        </div>
+                        <div class="col-3">
+                            <span class="fw-bold">Jobs by location</span><br>
+                            <span> Jobs in Delhi <span><br>
+                                    <span>Jobs in Mumbai<span><br>
+                                            <span>Jobs in Bangalore<span><br>
+                                                    <span>Jobs in Hyderabad<span><br>
+                                                            <span>Jobs in Chennai<span><br>
+                                                                    <span>Jobs in pune<span><br>
+
+
+
+                        </div>
+                        <div class="col-3">
+                            <span class="fw-bold">Explore more jobs</span><br>
+                            <span> Jobs by Category <span><br>
+                                    <span> Jobs by Skill <span><br>
+                                            <span> Jobs by loaction <span><br>
+                                                    <span> Jobs by designation <span><br>
+                                                            <span> Create free job alert<span><br>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <!-- companies search -->
+    <li>
+        <div class="offcanvas offcanvas-top  jobserch ms-5 rounded w-50 mt-5 " id="demos">
+
+            <div class=" jobserch">
+
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row pt-3">
+                            <div class="col-4 ps-5 ">
+                                <span class="fw-bold">Popular Categories</span><br>
+                                <span> IT jobs<span><br>
+                                        <span>Sale jobs<span><br>
+                                                <span>Markeiting<span><br>
+                                                        <span>Data Science jobs<span><br>
+                                                                <span>HR jobs<span><br>
+
+                            </div>
+
+                            <div class="col-4  ps-5 ">
+                                <span class="fw-bold">Jobs in demand</span><br>
+                                <span> Fresher jobs<span><br>
+                                        <span>MNC jobs<span><br>
+                                                <span>Remotejobs<span><br>
+                                                        <span>Work From home jobs<span><br>
+                                                                <span>Walk in jobs<span><br>
+                            </div>
+                            <div class="col-4  ps-5 ">
+                                <span class="fw-bold">Jobs by location</span><br>
+                                <span> Jobs in Delhi <span><br>
+                                        <span>Jobs in Mumbai<span><br>
+                                                <span>Jobs in Bangalore<span><br>
+                                                        <span>Jobs in Hyderabad<span><br>
+                                                                <span>Jobs in pune<span><br>
+
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </li>
+
+    <!-- login -->
+    <div class="offcanvas offcanvas-end rounded-start my-2" id="login" style="width: 520px;">
+        <div class="offcanvas-header">
+            <div class=" ms-2 row">
+                <div class="col-6">
+
+
+                </div>
+                <div class="col-6">
+
+                </div>
+            </div>
+
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+
+        <div class="offcanvas-body">
+
+            <div class=" ms-2 row">
+                <div class="col-6">
+                    <h4 class=" login-family">Login</h4>
+                </div>
+                <div class="col-6 text-end">
+                    <p class="text-primary me-5"> Register for free </p>
+
+                </div>
+            </div>
+            <div class=" ms-2 row">
+                <div class="col-12">
+                    <label for="" class="fw-bold my-2">Email ID /username</label><br>
+                    <input style="width:400px" type="text" placeholder="Enter your active Email ID /username"
+                        class="border bg-white enter rounded-pill py-2 px-5 text-muted">
+                </div>
+            </div>
+
+            <div class=" ms-2 row">
+                <div class="col-12">
+                    <label for="" class="fw-bold my-2">Password</label><br>
+                    <input style="width:400px" type="text" placeholder="Enter your  Password"
+                        class="border bg-white enter rounded-pill py-2 px-5 text-muted">
+                </div>
+                <div class="col-12 text-end ">
+                    <div class="text-primary me-5 mt-1">
+                        <p> Forget Password ?</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="ms-2 row pt-3">
+
+                <div class="col-12 py-1">
+                    <button class="bg-primary border border-0 rounded-pill px-5 py-2" style="width:400px">
+                        Login</button>
+
+
+
+
+
+                </div>
+
+            </div>
+            <div class="row pt-3">
+                <div class="col-12 text-center fw-bold">
+                    <p class="text-primary "> OTP to Login</p>
+                </div>
+            </div>
+
+            <div class="ms-2 row pt-3">
+
+                <div class="col-12 py-1 d-flex">
+                    <div class=" coloure_b border border-primaryborder-1 rounded-pill px-3 py-1  justify-content-center "
+                        style="width:400px">
+                        <img class="ms-5" src="https://th.bing.com/th/id/OIP.bQFWLjAk0JQta4ZayBBRwAHaHa?pid=ImgDet&rs=1"
+                            style="width:47px;height: 47px;">
+                        <span class="ms-3">Sign in with Google</span>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
